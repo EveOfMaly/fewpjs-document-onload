@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 function theDomHasLoaded() {
-    document.getElementById('text').innerText = "This is really cool!";
+    document.getElementById('text').innerHTML = "This is really cool!";
 }
 
